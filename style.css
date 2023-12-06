@@ -1,11 +1,17 @@
+@font-face {
+    font-family: "Happy Times Regular";
+    src: url(happy-times-NG_regular_master_web.woff2);
+} 
+
 * {
     box-sizing: border-box;
 }
 body {
-    font-family: "Times New Roman", serif;
-    font-size: 2em;
+    font-family: "Happy Times Regular", serif;
+    font-size: 1.6em;
     padding: 0.5em;
 }
+
 a {
     color: black;
     text-decoration: none;
@@ -20,6 +26,7 @@ a.everywhere {
     padding-top: 2.5em;
 }
 main {
+    margin-top: 1.75em;
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -54,6 +61,7 @@ p::selection, p span::selection {
 }
 
 nav {
+    font-size: 1.75em;
     position: absolute;
     bottom: 10vh;
     left: 10vh;
