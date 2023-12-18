@@ -30,10 +30,13 @@ section {
 }
 
 div.stanza {
-    margin-bottom: 1em;
+    margin-bottom: 2vh;
 }
+
 p {
     font-size: 1.5em;
+    margin: 0;
+    padding: 0;
 }
 
 p::selection, p span::selection {
@@ -73,7 +76,7 @@ nav {
     main {
         height: 100%;
     }
-    
+
     p {
         font-size: 2vh;
     }
@@ -81,10 +84,6 @@ nav {
     nav {
         top: 5vh;
         font-size: 1.75em;
-    }
-
-    div.stanza {
-        margin-bottom: 0;
     }
 
 
