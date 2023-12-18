@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Happy Times Regular", serif;
-    font-size: 3vh;
+    font-size: 1.5em;
     padding: 0.5em;
 }
 
@@ -73,3 +73,13 @@ nav {
     display: flex;
     user-select: none;
 }
+
+@media screen and (max-width: 500px) {
+    body {
+       font-size: 3vh;
+    }
+
+    div.stanza {
+        margin-bottom: 0;
+    }
+  }
