@@ -33,6 +33,10 @@ main {
     height: 70vh;
 }
 
+section {
+    height: 100%;
+}
+
 div.stanza {
     margin-bottom: 1em;
 }
