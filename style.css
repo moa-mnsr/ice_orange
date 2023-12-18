@@ -27,6 +27,7 @@ main {
 
 section {
     height: 100%;
+    
 }
 
 div.stanza {
@@ -44,11 +45,16 @@ p::selection, p span::selection {
     color: white;
 }
 
-.column-one,
-.column-two {
-    padding: 1em;
+.column-one {
+    padding-right: 1em;
 
 }
+
+.column-two {
+    padding-left: 1em;
+
+}
+
 :not(.show) {
     color: magenta;
     color: white;
